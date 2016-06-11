@@ -1,7 +1,6 @@
 # messenger-bot
-[![Build Status](https://travis-ci.org/EnumApps/messenger-bot.svg?branch=master)](https://travis-ci.org/remixz/messenger-bot)
-[![Coverage Status](https://coveralls.io/EnumApps/github/EnumApps/messenger-bot/badge.svg?branch=master)](https://coveralls.io/github/remixz/messenger-bot?branch=master)
-[//]: #[![npm version](https://img.shields.io/npm/v/messenger-bot.svg)](https://www.npmjs.com/package/messenger-bot)
+[![Build Status](https://travis-ci.org/EnumApps/messenger-bot.svg?branch=master)](https://travis-ci.org/EnumApps/messenger-bot)
+[![Coverage Status](https://coveralls.io/EnumApps/github/EnumApps/messenger-bot/badge.svg?branch=master)](https://coveralls.io/github/EnumApps/messenger-bot?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 
@@ -11,13 +10,9 @@ Requires Node >=4.0.0.
 
 ## Installation - coming soon
 
-[//]: #[```bash
-[//]: #[npm install messenger-bot
-[//]: #[```
-
 ## Example
 
-See more examples in [the examples folder.](https://github.com/remixz/messenger-bot/tree/master/example)
+See more examples in [the examples folder.](https://github.com/EnumApps/messenger-bot/tree/master/example)
 
 Run this example in the cloud: [![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart)
 * Setup `PAGE_TOKEN`, `VERIFY_TOKEN`, `APP_SECRET` and start the example by `Run > Start Messenger Echo Bot`.
@@ -115,13 +110,13 @@ Returns profile information of the `target`, called in the `callback`. See [User
 
 #### `bot._handleMessage(payload)`
 
-The underlying method used by `bot.middleware()` to parse the message payload, and fire the appropriate events. Use this if you've already implemented your own middleware or route handlers to receive the webhook request, and just want to fire the events on the bot instance. See [the echo bot implemented in Express](https://github.com/remixz/messenger-bot/blob/master/example/echo-express.js) for an example.
+The underlying method used by `bot.middleware()` to parse the message payload, and fire the appropriate events. Use this if you've already implemented your own middleware or route handlers to receive the webhook request, and just want to fire the events on the bot instance. See [the echo bot implemented in Express](https://github.com/EnumApps/messenger-bot/blob/master/example/echo-express.js) for an example.
 
 * `payload` - Object: The payload sent by Facebook to the webhook.
 
 #### `bot._verify(req, res)`
 
-The underlying method used by `bot.middleware()` for the initial webhook verification. Use this if you've already implemented your own middleware or route handlers, and wish to handle the request without implementing `bot.middleware()`. See [the echo bot implemented in Express](https://github.com/remixz/messenger-bot/blob/master/example/echo-express.js) for an example.
+The underlying method used by `bot.middleware()` for the initial webhook verification. Use this if you've already implemented your own middleware or route handlers, and wish to handle the request without implementing `bot.middleware()`. See [the echo bot implemented in Express](https://github.com/EnumApps/messenger-bot/blob/master/example/echo-express.js) for an example.
 
 * `req` - Request: The `http` request object.
 * `res` - Response: The `http` response object.
