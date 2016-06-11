@@ -1,7 +1,7 @@
 # messenger-bot
-[![Build Status](https://travis-ci.org/remixz/messenger-bot.svg?branch=master)](https://travis-ci.org/remixz/messenger-bot)
-[![Coverage Status](https://coveralls.io/repos/github/remixz/messenger-bot/badge.svg?branch=master)](https://coveralls.io/github/remixz/messenger-bot?branch=master)
-[![npm version](https://img.shields.io/npm/v/messenger-bot.svg)](https://www.npmjs.com/package/messenger-bot)
+[![Build Status](https://travis-ci.org/EnumApps/messenger-bot.svg?branch=master)](https://travis-ci.org/remixz/messenger-bot)
+[![Coverage Status](https://coveralls.io/EnumApps/github/EnumApps/messenger-bot/badge.svg?branch=master)](https://coveralls.io/github/remixz/messenger-bot?branch=master)
+[//]: #[![npm version](https://img.shields.io/npm/v/messenger-bot.svg)](https://www.npmjs.com/package/messenger-bot)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 
@@ -9,11 +9,11 @@ A Node client for the [Facebook Messenger Platform](https://developers.facebook.
 
 Requires Node >=4.0.0.
 
-## Installation
+## Installation - coming soon
 
-```bash
-npm install messenger-bot
-```
+[//]: #[```bash
+[//]: #[npm install messenger-bot
+[//]: #[```
 
 ## Example
 

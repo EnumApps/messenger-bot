@@ -9,20 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/remixz/messenger-bot.git"
+    "url": "git+https://github.com/EnumApps/messenger-bot.git"
   },
   "keywords": [
+    "facebook",
+    "bot",
     "messenger",
     "api",
-    "client",
-    "bot"
+    "client"
   ],
-  "author": "Zach Bruggeman <mail@bruggie.com>",
+  "author": "EnumApps <sales@enumapps.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/remixz/messenger-bot/issues"
+    "url": "https://github.com/EnumApps/messenger-bot/issues"
   },
-  "homepage": "https://github.com/remixz/messenger-bot#readme",
+  "homepage": "https://github.com/EnumApps/messenger-bot#readme",
   "dependencies": {
     "request": "^2.71.0"
   },
