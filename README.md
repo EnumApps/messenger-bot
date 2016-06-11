@@ -1,6 +1,6 @@
 # messenger-bot
 [![Build Status](https://travis-ci.org/EnumApps/messenger-bot.svg?branch=master)](https://travis-ci.org/EnumApps/messenger-bot)
-[![Coverage Status](https://coveralls.io/EnumApps/github/EnumApps/messenger-bot/badge.svg?branch=master)](https://coveralls.io/github/EnumApps/messenger-bot?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/EnumApps/messenger-bot/badge.svg?branch=master)](https://coveralls.io/github/EnumApps/messenger-bot?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 
