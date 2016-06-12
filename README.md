@@ -14,7 +14,7 @@ Requires Node >=4.0.0.
 
 See more examples in [the examples folder.](https://github.com/EnumApps/messenger-bot/tree/master/example)
 
-Run this example in the cloud: [![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart)
+Run this example in the cloud: 
 * Setup `PAGE_TOKEN`, `VERIFY_TOKEN`, `APP_SECRET` and start the example by `Run > Start Messenger Echo Bot`.
 * Your Webhook URL is available at `Preview > 3000` in the IDE.
 
